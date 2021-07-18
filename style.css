@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 162px;
+  color: white;
+  background-color: black;
+}
+div.album-details {
+  display: inline-block;
+  text-align: center;
+  padding: 30px 0px 30px 468px;
+}
+.album-name {
+  font-size: 66px;
+}
+maker {
+  padding-left: 376px;
+}
+span {
+  color: red;
+}
+.container {
+  /* border: 3px solid red; */
+  display: grid;
+  grid-template-rows: repeat(4, 260px);
+  grid-template-columns: repeat(3, 260px);
+  grid-gap: 5px;
+  justify-content: center;
+  padding-top: 20px;
+}
+img {
+  height: 260px;
+  width: 260px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+.image2 {
+  height: 520px;
+  width: 520px;
+  grid-column: 2/4;
+  grid-row: 1/3;
+}
